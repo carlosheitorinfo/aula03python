@@ -2,10 +2,19 @@
 """coordenadas = (10,20)
 print(coordenadas[0])"""
 
-a=("carro",1,[2,3,4])
+"""a=("carro",1,[2,3,4])
 print(a[0])
 a[2].append(5)
 print(a)
 a[1]=42
-print(a)
+print(a)"""
+
+a=("carro",1,[2,3,4],"carro")
+a.count("carro")
+print(a.count("carro"))
+
+object_string=('tesoura') 
+object_tupla=('tesoura',)
+print(type(object_string))
+print(type(object_tupla))
 
