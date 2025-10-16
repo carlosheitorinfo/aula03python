@@ -1,10 +1,10 @@
 # número secreto
 import random
-n=random.randint(1, 10)
+numSecreto=random.randint(1, 10)
 x=int(input("Adivinhe um número secreto entre 1 e 10: "))
-if x==n:
+if x==numSecreto:
     print("Parabéns! Você acertou o número secreto.")
-elif x<n:
+elif x<numSecreto:
     print(f"O número secreto é maior que: {x}")
 else:
     print(f"O número secreto é menor que: {x}")
