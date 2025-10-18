@@ -37,7 +37,7 @@ while True:
         x=int(input(f"Você tem {tentativas} tentativas restantes. Sua pontuação é de: {score}. Tente adivinhar o número secreto: ")) 
     
     if tentativas == 0:
-        print("GAME OVER !!! Tentativas excedidas.")
+        print("GAME OVER !!! Tentativas excedidas. Sua pontuação final é de: "+str(score))
         break
 
 
