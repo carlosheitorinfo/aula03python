@@ -9,6 +9,7 @@ numSecreto=random.randint(10, 100)
 
 nivel_tentativas={1:30, 2:15, 3:5}
 tentativas=nivel_tentativas.get(nivel, 0)
+
 score=100
 nivel_desconto={1:2, 2:5, 3:10}
 
